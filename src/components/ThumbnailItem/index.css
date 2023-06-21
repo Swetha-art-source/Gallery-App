@@ -1,0 +1,34 @@
+/* Write your code here. */
+.thumbnail-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+}
+.selected-list-item {
+  opacity: 1;
+  margin-right: 20px;
+  margin-bottom: 18px;
+  cursor: pointer;
+}
+.list-item {
+  margin-right: 20px;
+  margin-bottom: 18px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.thumbnail-image {
+  width: 70px;
+  height: 70px;
+}
+.btn {
+  border-style: none;
+  border: 0;
+  background-color: transparent;
+  border-width: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+}
